@@ -3,7 +3,8 @@
 ## Overview
 The SmartPrep MCQ Practice App is designed to help students prepare for their exams. This web-based platform provides a self-assessment test of multiple-choice questions (MCQs), allowing students to practice and assess their knowledge effectively.
 
-## Live Demo: smartprep.vercel.app
+## [Live Demo here](https://smartprep.vercel.app/)
+
 
 ## Features
 - **Customizable Question Bank**: Easy access to add/delete your MCQ's.
@@ -16,10 +17,10 @@ To run the app locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/nptel-swayam-mcq-practice.git
+   git clone https://github.com/VarunMusham/SmartPrep.git
 2. **Navigate to the project directory:**
    ```bash
-   cd nptel-swayam-mcq-practice
+   cd SmartPrep
 3. **Install dependencies:**
    ```bash
    npm install
@@ -48,5 +49,5 @@ You are welcome to contribute for enhancing the app. To contribute, please follo
    git commit -m "Add your message here"
 5. Create a Pull Request detailing your changes.
 
-
-## Feel free to modify the sections as per your specific project details and requirements.
+<br>
+__Feel free to modify the sections as per your specific project details and requirements__
