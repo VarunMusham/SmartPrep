@@ -3,7 +3,7 @@
 # SmartPrep MCQ Practice App
 
 ## Overview
-The SmartPrep MCQ Practice App is designed to help students prepare for their NPTEL SWAYAM certification exams. This web-based platform provides a self-assessment test of multiple-choice questions (MCQs) from NPTEL SWAYAM assignments, allowing students to practice and assess their knowledge effectively.
+The SmartPrep MCQ Practice App is designed to help students prepare for their exams. This web-based platform provides a self-assessment test of multiple-choice questions (MCQs), allowing students to practice and assess their knowledge effectively.
 
 ## Features
 - **Customizable Question Bank**: Easy access to add/delete your MCQ's.
