@@ -10,9 +10,9 @@ The SmartPrep MCQ Practice App is designed to help students prepare for their NP
 - **Live Score**: Check your score instantly.
 - **Instant Feedback**: Get immediate feedback on your answers with detailed explanations.
 - **User-Friendly Interface**: Enjoy a clean and intuitive interface for a seamless learning experience.
-<
+
 ## Installation
-To run the app locally, follow these steps:
+(To run the app locally, follow these steps:)
 
 1. **Clone the repository:**
    ```bash
@@ -50,5 +50,3 @@ You are welcome to contribute for enhancing the app. To contribute, please follo
 
 
 ## Feel free to modify the sections as per your specific project details and requirements.
-
->
