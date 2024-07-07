@@ -27,26 +27,26 @@ To run the app locally, follow these steps:
    ```bash
    npm start
 
-##Usage
+## Usage
 1. Open your web browser and navigate to http://localhost:3000.
 2. Select the course you want to practice.
 3. Choose a set of questions and start practicing.
 4. Review your answers and check the detailed explanations for each question.
 
-##Contributing
+## Contributing
 You are welcome to contribute for enhancing the app. To contribute, please follow these steps:
 
 1. Fork the repository.
-2. **Create a new branch:**
+2. Create a new branch:
    ```bash
    git checkout -b feature/your-feature-name
-3. **Make your changes and commit them:**
+3. Make your changes and commit them:
    ```bash
    git commit -m "Add your message here"
-4. **Push to the branch:**
+4. Push to the branch:
    ```bash
    git commit -m "Add your message here"
 5. Create a Pull Request detailing your changes.
 
 
-##Feel free to modify the sections as per your specific project details and requirements.
+## Feel free to modify the sections as per your specific project details and requirements.
