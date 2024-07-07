@@ -50,4 +50,4 @@ You are welcome to contribute for enhancing the app. To contribute, please follo
 5. Create a Pull Request detailing your changes.
 
 <br>
-__Feel free to modify the sections as per your specific project details and requirements__
+### Feel free to modify the sections as per your specific project details and requirements
