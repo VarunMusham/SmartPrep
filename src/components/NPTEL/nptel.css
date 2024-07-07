@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* background: lightblue url('Resources/camp.png') no-repeat fixed center; */
+}
+
+.backgroundImage {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.score {
+    background-color: black;
+    letter-spacing: 2px;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 24px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.questionBlock {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: prompt;
+    /* letter-spacing: -1px; */
+    font-size: 24px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 20px 20px 20px 20px;
+    max-width: 600px;
+    border-radius: 20px;
+    z-index: 1;
+
+    box-shadow: 0px 0px 10px;
+}
+
+.question {
+    /* border: 3px solid black; */
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.option1,
+.option2,
+.option3,
+.option4 {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+.hoverAnimation:hover {
+    animation-name: optionColour;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.optionColourGreen {
+    background-color: rgb(0, 255, 0);
+    color: white;
+}
+
+.optionColourRed {
+    background-color: red;
+    color: white;
+}
+
+.onClickText {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.onClickText.correct {
+    color: rgb(0, 255, 0);
+    box-shadow: 0px 0px 10px rgb(0, 255, 0);
+    
+}
+
+.onClickText.incorrect {
+    color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+}
+
+@keyframes optionColour {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: rgb(239, 196, 115);
+    }
+}
+@media screen and (max-width: 600px) {
+    .questionBlock {
+        font-size: 20px;
+    }
+    .score {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .questionBlock {
+        font-size: 18px;
+    }
+    .score {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .questionBlock {
+        font-size: 15px;
+    }
+}
