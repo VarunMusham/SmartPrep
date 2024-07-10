@@ -13,6 +13,56 @@ The SmartPrep MCQ Practice App is designed to help students prepare for their ex
 - **Instant Feedback**: Get immediate feedback on your answers with detailed explanations.
 - **User-Friendly Interface**: Enjoy a clean and intuitive interface for a seamless learning experience.
 
+
+## Creating Backend Server
+1. Create a Supabase Project.
+2. Run the following SQL script to create a table in Supabase:
+   ``` sql
+   CREATE TABLE questions (
+     id SERIAL PRIMARY KEY,
+     question TEXT,
+     a TEXT,
+     b TEXT,
+     c TEXT,
+     d TEXT,
+     answer CHAR(1)
+   );
+3. Copy your Supabase URL and API key into your code.
+4. Install the required python requirements:
+   ``` python
+   pip install -r /path/to/requirements.txt
+5. Run the Server:
+   ``` python
+   python app.py
+6. You can add your questions from this page.
+
+### Alternatively you can add questions using insertQuestions.js file. For this follow the below steps:
+1. Make sure to create the Supabase project table as mentioned above.
+2. Add your questions to questions.json in below formmat:
+   ``` json
+   [
+     {
+       "question": "Tropical moist forests do not include",
+       "a": "broadleaved forests",
+       "b": "wet evergreen forests",
+       "c": "semi-evergreen forests",
+       "d": "moist deciduous forests",
+       "answer": "a"
+     },
+     {
+       "question": "Another question",
+       "a": "option 1",
+       "b": "option 2",
+       "c": "option 3",
+       "d": "option 4",
+       "answer": "b"
+     }
+     // Add all your questions here
+   ]
+3. Add your Supabase credentials to insertQuestions.js file.
+4. Run the insertQuestions.js file using:
+   ``` node
+   node insertQuestions.js 
 ## Installation
 To run the app locally, follow these steps:
 
@@ -34,6 +84,8 @@ To run the app locally, follow these steps:
 2. Select the course you want to practice.
 3. Choose a set of questions and start practicing.
 4. Review your answers and check the detailed explanations for each question.
+
+
 
 ## Contributing
 You are welcome to contribute for enhancing the app. To contribute, please follow these steps:
