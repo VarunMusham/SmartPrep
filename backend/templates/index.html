@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Question</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 600px;
+            max-width: 90%;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="text"], button {
+            width: 96%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .exists {
+            color: rgb(10, 177, 255);
+        }
+        .success-message {
+            color: green;
+        }        
+        .error-message {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Add Question</h2>
+
+        {% if id_exists %}
+        <p class="exists">Question with ID {{ request.form['id'] }} already exists. Please choose a different ID.</p>
+        {% elif submitted %}
+        <p class="success-message">Question submitted successfully!</p>
+        {% elif error %}
+        <p class="error-message">Error submitting question. Please try again later.</p>
+        {% endif %}
+
+        <form id="questionForm" method="POST" action="/submit-question">
+            <label for="questionId">ID:</label>
+            <input type="text" id="questionId" name="id" required><br>
+            
+            <label for="question">Question:</label>
+            <input type="text" id="question" name="question" required><br>
+            
+            <label for="optionA">Option A:</label>
+            <input type="text" id="optionA" name="a" required><br>
+            
+            <label for="optionB">Option B:</label>
+            <input type="text" id="optionB" name="b" required><br>
+            
+            <label for="optionC">Option C:</label>
+            <input type="text" id="optionC" name="c" required><br>
+            
+            <label for="optionD">Option D:</label>
+            <input type="text" id="optionD" name="d" required><br>
+            
+            <label for="correctAnswer">Correct Answer:</label>
+            <input type="text" id="correctAnswer" name="answer" required><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
