@@ -1,9 +1,16 @@
-# SmartPrep MCQ Practice App
+# 
+<h1 align="center">
+  SmartPrep MCQ Practice App<br/>
+  <a href="https://smartprep.vercel.app" target="_blank">smartprep.vercel.app</a>
+</h1>
+<div align="center">
+  <img alt="Demo" src="./Images/img1.png" />
+</div>
 
 ## Overview
 The SmartPrep MCQ Practice App is designed to help students prepare for their exams. This web-based platform provides a self-assessment test of multiple-choice questions (MCQs), allowing students to practice and assess their knowledge effectively.
 
-### [Live Demo here](https://smartprep.vercel.app)
+<!--### [Live Demo here](https://smartprep.vercel.app)-->
 
 
 
