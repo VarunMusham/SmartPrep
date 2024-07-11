@@ -4,8 +4,8 @@ import requests
 app = Flask(__name__)
 
 # Supabase credentials
-supabaseUrl = 'https://elmkwjmldefcynowezyk.supabase.co'
-supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVsbWt3am1sZGVmY3lub3dlenlrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjA1MTM3NTcsImV4cCI6MjAzNjA4OTc1N30.-xx9cti6EZxsALkES_MxvhG83GN6So_ni2YEOiKnqQA'
+supabaseUrl = 'YOUR_SUPABASE_URL'
+supabaseKey = 'YOUR_SUPABASE_API_KEY'
 
 # Endpoint for your Supabase table
 endpoint = '/rest/v1/questions'
