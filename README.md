@@ -21,7 +21,7 @@ The SmartPrep MCQ Practice App is designed to help students prepare for their ex
 - **User-Friendly Interface**: Enjoy a clean and intuitive interface for a seamless learning experience.
 
 
-## Creating Backend Server
+## Creating Backend Server (<a href="https://smartprep.vercel.app/admin" target="_blank">smartprep.vercel.app/admin</a>)
 1. Create a Supabase Project.
 2. Run the following SQL script to create a table in Supabase:
    ``` sql
