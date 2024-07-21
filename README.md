@@ -112,4 +112,4 @@ You are welcome to contribute for enhancing the app. To contribute, please follo
 <br>
 Feel free to modify the sections as per your specific project details and requirements
 <br>
-  <a href="https://wildlife-geography.vercel.app" target="_blank">Final Demo</a>
+<a href="https://wildlife-geography.vercel.app" target="_blank">Final Demo</a>
