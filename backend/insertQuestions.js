@@ -1,3 +1,5 @@
+// Insert Questions using JavaScript (if Questions are stored in json format)
+
 const { createClient } = require('@supabase/supabase-js');
 const fs = require('fs');
 
