@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template, redirect, url_for
-import requests
+import requests  # For HTTPS methods
 
 app = Flask(__name__)
 
