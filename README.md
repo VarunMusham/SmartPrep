@@ -1,6 +1,6 @@
 # 
 <h1 align="center">
-  SmartPrep MCQ Practice App<br/>
+  SmartPrep MCQ Practice App (V1.0)<br/>
   <a href="https://smartprep.vercel.app" target="_blank">smartprep.vercel.app</a>
 </h1>
 <div align="center">
